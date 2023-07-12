@@ -1,0 +1,55 @@
+@font-face {
+  font-family: MyFont;
+  src: url(assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: FontBold;
+  src: url(assets/fonts/Roboto-Bold.ttf);
+}
+body {
+  background-color: hsl(234, 29%, 20%);
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+  margin-left: 400px;
+  margin-right: 550px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.column1 {
+  padding-left: 50px;
+}
+
+#list1,
+#list2,
+#list3 {
+  list-style-image: url(assets/images/icon-list.svg);
+}
+
+#sub-btn {
+  margin-top: 20px;
+  width: 350px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+}
+
+#header {
+  padding-left: 30px;
+  font-size: 50px;
+  color: hsl(234, 29%, 20%);
+}
+
+#input-email {
+  width: 350px;
+  height: 35px;
+  border-radius: 10px;
+}
