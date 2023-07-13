@@ -1,6 +1,6 @@
 @font-face {
   font-family: MyFont;
-  src: url(assets/fonts/Roboto-Regular.ttf);
+  src: url(./assets/fonts/Roboto-Regular.ttf);
 }
 @font-face {
   font-family: FontBold;
@@ -8,6 +8,7 @@
 }
 body {
   background-color: hsl(234, 29%, 20%);
+  font-family: "MyFont";
 }
 .container {
   display: grid;
@@ -35,9 +36,9 @@ body {
 
 #sub-btn {
   margin-top: 20px;
-  width: 350px;
-  height: 35px;
-  border-radius: 10px;
+  width: 355px;
+  height: 40px;
+  border-radius: 5px;
   background-color: hsl(234, 29%, 20%);
   color: white;
 }
@@ -46,10 +47,29 @@ body {
   padding-left: 30px;
   font-size: 50px;
   color: hsl(234, 29%, 20%);
+  font-family: FontBold;
 }
 
 #input-email {
   width: 350px;
   height: 35px;
   border-radius: 10px;
+}
+
+.error-message {
+  padding-left: 100px;
+  font-size: 12px;
+  color: red;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.attribution {
+  color: white;
+}
+
+#sub-btn:hover {
+  background: linear-gradient(to right, hsl(355, 78%, 54%), rgb(249, 65, 9));
 }
