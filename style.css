@@ -73,3 +73,8 @@ body {
 #sub-btn:hover {
   background: linear-gradient(to right, hsl(355, 78%, 54%), rgb(249, 65, 9));
 }
+
+#email-confirm {
+  font-family: FontBold;
+  font-weight: 800;
+}
